@@ -1,0 +1,26 @@
+.items {
+    display: flex;
+    color: #03e9f4;
+    background-color: #000;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    margin-right: 10px; 
+    justify-content: center;
+    border-radius: 35px;  
+}
+.items100 {
+    color: #03e9f4;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    margin-right: 10px; 
+    justify-content: center;
+    background-color: #000;
+}
+li:hover , .items:hover{
+    background: #03e9f4;
+    box-shadow: 0 0 10px #03e9f4,
+        0 0 20px #03e9f4,
+        0 0 40px #03e9f4,
+        0 0 80px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
